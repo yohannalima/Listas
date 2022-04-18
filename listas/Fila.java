@@ -16,7 +16,7 @@ public class Fila {
 		
 		if (inseridos == filaInterna.length) {
 			
-			Object [] novaFila = new Object[(int) (inseridos*2.6)];
+			Object [] novaFila = new Object[(int) (inseridos*1.6)];
 			for (int i = 0; i < filaInterna.length; i++) {
 				novaFila[i] = filaInterna[i];
 			}
